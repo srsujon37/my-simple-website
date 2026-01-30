@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table </title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid rgba(156, 156, 156, 0.356);
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
+    <section>
+        <div>
+            <h1>HTML Table</h1>
+            <table>
+                <caption>Employee Salary Data</caption>
+                <!-- table header -->
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <!-- table body -->
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bill Gates</td>
+                        <td>Founder Microsoft</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Steve Jobs</td>
+                        <td>Founder Apple</td>
+                        <td>$12000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry Page</td>
+                        <td>Founder Google</td>
+                        <td>$15000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mark Zuckerberg</td>
+                        <td>Founder Facebook</td>
+                        <td>$20000</td>
+                    </tr>
+                </tbody>
+                <!-- table footer -->
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total employee: 4</td>
+                    </tr>
+
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <ul>
+        <li>Table: table</li>
+        <li>Table head: thead</li>
+        <li>Table body: tbody</li>
+        <li>Table footer: tfoot</li>
+        <li>Table raw: tr</li>
+        <li>Table data : td</li>
+        <li>Th</li>
+        
+        
+    </ul>
     
 </body>
 </html>
