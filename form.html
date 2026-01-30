@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fill up the form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="name">Your name 
+                    <input id="name" type="text" placeholder="Type your name">
+                </label>
+                <label for="email">Your Email
+                    <input type="email" id="email" placeholder="example@email.com">
+                </label>
+                <label for="phone">Phone number
+                    <input type="number" name="" id="phone">
+                </label>
+                <label for="password">Your Password
+                    <input type="password" placeholder="Enter your password">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one Pitha </legend>
+                    <label for="chitoy"> 
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="Vapa">
+                        <input type="radio" name="pitha" id="Vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="Vapa">Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or more vorta </legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                    </label>
+                    <label for="dhonia">
+                        <input type="checkbox" name="vorta" id="dhonia">dhonia
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">shutki
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="50" rows="4"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
