@@ -1,37 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My SImple Website</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <style>
-
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li>
+          <a href="table.html">Table</a>
+          <ul class="dropdown">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="video.html">Video</a>
+              <ul class="dropdown">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+    </nav>
     <div>
-        <h3>My First Website</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores obcaecati, magni exercitationem commodi, voluptas cumque sint optio repudiandae fuga et enim ipsa iure quidem odio!</p>
+      <h3>My First Website</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+        obcaecati, magni exercitationem commodi, voluptas cumque sint optio
+        repudiandae fuga et enim ipsa iure quidem odio!
+      </p>
     </div>
 
     <div>
-        <h3>My Second blog</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores obcaecati, magni exercitationem commodi, voluptas cumque sint optio repudiandae fuga et enim ipsa iure quidem odio!</p>
+      <h3>My Second blog</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+        obcaecati, magni exercitationem commodi, voluptas cumque sint optio
+        repudiandae fuga et enim ipsa iure quidem odio!
+      </p>
     </div>
-    
+
     <div>
-        <h3>My Second blog</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores obcaecati, magni exercitationem commodi, voluptas cumque sint optio repudiandae fuga et enim ipsa iure quidem odio!</p>
+      <h3>My Second blog</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+        obcaecati, magni exercitationem commodi, voluptas cumque sint optio
+        repudiandae fuga et enim ipsa iure quidem odio!
+      </p>
     </div>
     <div>
-        <h2>You to push incremental code</h2>
-        <ul>
-            <li>git add .</li>
-            <li>git commit -m"comment"</li>
-            <li>git push</li>
-        </ul>
+      <h2>You to push incremental code</h2>
+      <ul>
+        <li>git add .</li>
+        <li>git commit -m"comment"</li>
+        <li>git push</li>
+      </ul>
     </div>
-    
-</body>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <ul class="dropdown" id="user">
+        <li class="item">a<a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem"></a></li>
+        <li class="item"><a href="" class="menuitem">ffff</a></li>
+    </ul>
+    <ul class="like" id="love">
+        <li class="item"><a href="" class="menu"></a></li>
+        <li class="item"><a href="" class="menu"></a></li>
+        <li class="item"><a href="" class="menu"></a></li>
+    </ul>
+
+    <ol class="dropdown" id="user">
+        <li class="item"><a href="" class="menu"></a></li>
+        <li class="item"><a href="" class="menu"></a></li>
+        <li class="item"><a href="" class="menu"></a></li>
+        <li class="item"><a href="" class="menu"></a></li>
+    </ol>
+
+    <ol class="dropdown" id="user">
+        <li class="item"><a href="" class="menuw"></a></li>
+        <li class="item"><a href="" class="menuw"></a></li>
+        <li class="item"><a href="" class="menuw"></a></li>
+        <li class="item"><a href="" class="menuw"></a></li>
+        <li class="item"><a href="" class="menuw"></a></li>
+    </ol>
+
+    <main>
+        <artical class="blog">
+            <h3>My First blog 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, autem saepe voluptatum a sapiente accusantium delectus aperiam sequi similique iste!</p>
+        </artical>
+        <artical class="blog">
+            <h3>My First blog 2</h3>
+            <p>Voluptatum officiis repellat consequuntur! Quam provident esse fugiat, est iure totam, voluptatum odit perspiciatis adipisci vero illo consequuntur ratione nobis.</p>
+        </artical>
+        <artical class="blog">
+            <h3>My First blog 3</h3>
+            <p>Nulla, repellendus. Dolor repellat magni quis voluptatem sapiente deleniti porro, voluptas qui eius nihil ad, nostrum amet atque ex? Illo!</p>
+        </artical>
+    </main>
+  </body>
 </html>
